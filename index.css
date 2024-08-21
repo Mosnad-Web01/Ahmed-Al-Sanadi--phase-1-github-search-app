@@ -1,13 +1,163 @@
 #main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 #github-container {
-  display: flex;
+	display: flex;
 }
 
 ul {
-  list-style: none;
+	list-style: none;
+}
+/* General Styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+
+#main {
+	width: 90%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/* Form Styles */
+#github-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#search {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type="submit"] {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+input[type="submit"]:hover {
+	background-color: #0056b3;
+}
+
+#toggle-search {
+	background-color: #28a745;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+#toggle-search:hover {
+	background-color: #218838;
+}
+
+/* Container Styles */
+#github-container {
+	margin-top: 20px;
+}
+
+/* User List Styles */
+#user-list {
+	list-style: none;
+	padding: 0;
+}
+
+#user-list li {
+	background: #fafafa;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+}
+
+#user-list img {
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+#user-list p {
+	margin: 0;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#user-list a {
+	color: #007bff;
+	text-decoration: none;
+}
+
+#user-list a:hover {
+	text-decoration: underline;
+}
+
+#user-list button {
+	background-color: #17a2b8;
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 14px;
+	margin-left: auto;
+}
+
+#user-list button:hover {
+	background-color: #138496;
+}
+
+/* Repos List Styles */
+#repos-list {
+	list-style: none;
+	padding: 0;
+}
+
+#repos-list li {
+	background: #fafafa;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+#repos-list p {
+	margin: 0;
+}
+
+#repos-list a {
+	color: #007bff;
+	text-decoration: none;
+}
+
+#repos-list a:hover {
+	text-decoration: underline;
 }
